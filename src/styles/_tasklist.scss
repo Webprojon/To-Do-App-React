@@ -1,0 +1,57 @@
+// Sass Variable
+$bg-color: linear-gradient(95deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+$bx-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+// Sass Variable
+
+.all__tasks {
+  display: flex;
+
+  .each__task {
+    width: 100%;
+    border-radius: 0.3rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem 0;
+    padding: 0.7rem 1rem;
+    background: $bg-color;
+    box-shadow: $bx-shadow;
+
+    .task__value {
+      padding: 0.3rem 0.7rem;
+      font-size: 1.2rem;
+      border: none;
+      outline: none;
+      background-color: rgb(70, 70, 70);
+      color: gray;
+      border-radius: 0.3rem;
+    }
+
+    .task__btns {
+      button {
+        padding: 0.3rem 0.7rem;
+        font-size: 1.2rem;
+        border: none;
+        margin: 0 0.7rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        color: rgb(67, 66, 66);
+      }
+
+      .edit__btn {
+        background-color: rgb(5, 184, 5);
+      }
+
+      .delete__btn {
+        background-color: rgb(192, 6, 6);
+      }
+    }
+
+    p {
+      margin-left: 1rem;
+      color: rgb(147, 147, 147);
+    }
+  }
+}

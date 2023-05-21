@@ -1,0 +1,24 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+// Portial
+@import "./taskform";
+@import "./tasklist";
+@import "./changemode";
+// Portial
+// General Styles
+
+// Sass Variables
+$gray: rgb(205, 231, 241);
+// Sass Variables
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  font-family: "SF Pro Display", sans-serif;
+  background-color: $gray;
+  padding: 3rem 0;
+}
+// General Styles

@@ -1,0 +1,23 @@
+.change__mode {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+
+  i {
+    font-size: 1.5rem;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: all 0.3s linear;
+    }
+  }
+
+  .fa-sun {
+    color: yellow;
+  }
+
+  .fa-moon {
+    color: rgb(34, 8, 179);
+  }
+}

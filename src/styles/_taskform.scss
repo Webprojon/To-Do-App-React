@@ -1,0 +1,48 @@
+// Sass Variable
+$bg-color: linear-gradient(95deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+$bx-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+// Sass Variable
+
+.tasks__container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .task__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 1.3rem 3rem;
+    background: $bg-color;
+    box-shadow: $bx-shadow;
+
+    input {
+      width: 65%;
+      padding: 0.6rem 1rem;
+      background-color: rgb(70, 70, 70);
+      color: gray;
+      border: none;
+      outline: none;
+      font-size: 1.2rem;
+      border-top-left-radius: 0.3rem;
+      border-bottom-left-radius: 0.3rem;
+    }
+
+    button {
+      color: rgb(152, 151, 151);
+      font-size: 1.2rem;
+      background: linear-gradient(95deg, rgb(70, 70, 70), rgba(0, 0, 0, 0.8));
+      border: none;
+      border-top-right-radius: 0.3rem;
+      border-bottom-right-radius: 0.3rem;
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+    }
+  }
+}
